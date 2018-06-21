@@ -1,0 +1,17 @@
+create table aa(sno int,sname char(10));
+create table bb(sno int,sname char(10));
+insert into aa values(15030199009,wujinbo);
+insert into aa (sno) values(15030199011);
+select sno from aa;
+select sname from aa where sno=15030199009;
+select sname from aa where (sno=15030199009) OR (sno=15030199010);
+update aa set sname=jinbow where sno=15030199009;
+2
+sno
+sname
+15030199009
+wujinbo
+15030199010
+abcd
+15030199011
+dfss
